@@ -1,0 +1,32 @@
+/*#body {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}*/
+
+#spacer{
+min-height: 500px;
+position:fixed;
+}
+
+.main-section.right {
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    position: fixed;
+    left: auto;
+    width: 60%;
+  }
+
+  .bottombuffer{
+    margin-bottom: 150px;
+  }
+
+  .main-section.right {
+    position: relative;
+    width: 60%;
+    padding-top: 75px;
+  }
+}
