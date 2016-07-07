@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="robots" content="noindex">
-    
+
     <link href="http://www.google-analytics.com/" rel="dns-prefetch">
     <link href="http://ajax.googleapis.com/" rel="dns-prefetch">
     <link href="assets/css/style.min.css" rel="stylesheet">
@@ -17,6 +17,14 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <main class="main" role="main">
       <section class="main-section left"></section>
       <section class="main-section right">
@@ -45,8 +53,9 @@
               <div class="col-sm-3 social-section">
                 <p class="section-header">Share</p>
                 <ul class="external-links list-unstyled">
-                  <li><a href="index.html#" target="_blank">Facebook</a></li>
-                  <li><a href="index.html#" target="_blank">Twitter</a></li>
+                  <li><div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Facebook</a></div>
+                  <li><div><a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
                 </ul>
               </div>
             </footer>
@@ -64,10 +73,10 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', 'UA-80433015-1', 'auto');
       ga('send', 'pageview');
-    
+
     </script>
 
   </body>
