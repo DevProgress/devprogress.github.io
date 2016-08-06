@@ -4,8 +4,17 @@
    clear: both;
 }*/
 
+.left-align{
+    text-align: left;
+}
+
+.fineprint{
+    font-size: xx-small;
+    font-style: italic;
+}
+
 #spacer{
-min-height: 500px;
+min-height: 200px;
 position:fixed;
 }
 
@@ -21,12 +30,12 @@ position:fixed;
   }
 
   .bottombuffer{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
 
   .main-section.right {
     position: relative;
     width: 60%;
-    padding-top: 75px;
+    padding-top: 50px;
   }
 }
