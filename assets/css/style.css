@@ -15,8 +15,8 @@
 @media (min-width: 768px) {
   .footer {
     position: fixed;
-    left: auto;
-    width: 60%;
+    left: 40%;
+    width: auto;
   }
 
   .main-section.right {
@@ -28,7 +28,16 @@
 }
 
 @media(min-width: 992px) {
+  .main-section.left {
+    width: 30%;
+  }
+
   .main-section.right {
+    width: 70%;
     padding-bottom: 175px;
+  }
+
+  .footer {
+    left: 30%;  
   }
 }
