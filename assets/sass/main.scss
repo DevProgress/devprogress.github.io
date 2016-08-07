@@ -1,0 +1,34 @@
+$brand-danger: #e51d2e;
+$brand-primary: #0050a0;
+$white: #fff;
+$font-family-sans-serif: 'Tofino', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$left-panel-width-sm: 40%;
+$left-panel-width-md: 30%;
+
+$right-panel-width-sm: 60%;
+$right-panel-width-md: 70%;
+
+// Vendor
+@import "../vendor/normalize-css/normalize";
+@import "../vendor/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+// Components
+@import "buttons";
+@import "typography";
+
+// Sections
+@import "main-content";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,90 @@
+.logo {
+	margin: 0 auto 5px;
+}
+
+.content-section {
+  margin-bottom: 25px;
+}
+
+@media(min-width: 768px) {
+  .content-section {
+    margin-bottom: 65px;
+  }
+}
+
+.main {
+  background: $white;
+}
+
+.main-section {
+	display: block;
+	width: 100%;
+  height: 100%;
+  float: none;
+  padding: 25px;
+}
+
+.main-section.left {
+	background: $brand-primary;
+	position: relative;
+	height: 100%;
+}
+
+.main-section.left:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: url('../img/hrc-logo.svg');
+  opacity: 0.05;
+  background-size: 10%;
+  background-repeat: round;
+}
+
+.main-section.right {
+  overflow: scroll;
+}
+
+@media (min-width: $screen-sm-min) {
+  .logo {
+    max-width: 400px;
+    margin: 0 0 5px 0;
+  }
+
+  .main {
+		min-height: 500px;
+		height: 100vh;
+	}
+
+	.main-section {
+		display: inline-block;
+		float: left;
+		padding: 35px;
+	}
+
+  .main-section.left {
+    width: $left-panel-width-sm;
+    box-shadow: inset -15px 0 50px 0px rgba(0,0,0, .15);
+  }
+
+  .main-section.right {
+    position: relative;
+    width: $right-panel-width-sm;
+    padding-top: 50px;
+    padding-bottom: 225px;
+  }
+}
+
+@media(min-width: $screen-md-min) {
+  .main-section.left {
+    width: $left-panel-width-md;
+  }
+
+  .main-section.right {
+    width: $right-panel-width-md;
+    padding-bottom: 175px;
+  }
+}

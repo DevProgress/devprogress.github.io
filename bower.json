@@ -1,0 +1,14 @@
+{
+  "name": "devprogress.github.io",
+  "homepage": "https://github.com/DevProgress/devprogress.github.io",
+  "authors": [
+    "Matt Rothenberg <mattrothenberg@gmail.com>"
+  ],
+  "description": "DevProgress Landing Page",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "normalize-css": "^4.2.0"
+  }
+}
