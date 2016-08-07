@@ -23,5 +23,12 @@
     position: relative;
     width: 60%;
     padding-top: 50px;
+    padding-bottom: 225px;
+  }
+}
+
+@media(min-width: 992px) {
+  .main-section.right {
+    padding-bottom: 175px;
   }
 }
