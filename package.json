@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "description": "This page (and this group) is a work in progress. If you find problems with our page, feel free to file a Github issue. Or, better yet, sign up to work with us and fix it!",
   "main": "Gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "express": "^4.14.0",
     "gulp": "^3.9.1",
-    "gulp-bower-src": "^0.1.0",
     "gulp-sass": "^2.3.2",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-livereload": "^3.8.1",
+    "connect-livereload": "^0.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
     "gulp-uglify": "^2.0.0"
   },
   "scripts": {
+    "start": "gulp",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

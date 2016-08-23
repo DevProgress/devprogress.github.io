@@ -10,8 +10,8 @@ $right-panel-width-sm: 60%;
 $right-panel-width-md: 70%;
 
 // Vendor
-@import "../vendor/normalize-css/normalize";
-@import "../vendor/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../../bower_components/normalize-css/normalize.css";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
 
 // Components
 @import "buttons";
