@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-   
+
 
     <meta property="og:url" content="https://devprogress.us/" />
     <meta property="og:title" content="DevProgress" />
@@ -16,8 +16,7 @@
 
     <link href="https://www.google-analytics.com/" rel="dns-prefetch">
     <link href="https://ajax.googleapis.com/" rel="dns-prefetch">
-    <link href="assets/css/style.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 
     <script src="assets/components/modernizr.js"></script>
 
@@ -48,7 +47,7 @@
           <div class="content-section">
             <div class="row">
               <div class="col-sm-12 col-md-10 col-lg-9">
-                <a class="lead callout" id="faq" href="#faq">Frequently Asked Questions</a>
+                <a class="lead" id="faq" href="#faq">Frequently Asked Questions</a>
                 <hr>
                 <p>
                 <strong><a id="whatis" href="#whatis">Q:</a> What is DevProgress</strong>
@@ -242,7 +241,7 @@
           <div class="content-section">
             <div class="row">
               <div class="col-sm-12 col-md-10 col-lg-9">
-                <a class="lead callout" id="ideas" href="#ideas">Asks and Ideas</a>
+                <a class="lead" id="ideas" href="#ideas">Asks and Ideas</a>
                 <hr>
                 <p>
                 We can’t think of everything. In Open Source Communities, one of the best motivators for completing a project is to “scratch your own itch” and work on a problem that is important to you. By sharing the solution, volunteers then solve that problem for everyone else, while distributing the maintenance burden of keeping that solution up to date by expanding it to serve new use-cases.
@@ -260,7 +259,7 @@
           <div class="content-section">
             <div class="row">
               <div class="col-sm-12 col-md-10 col-lg-9">
-                <a class="lead callout" id="coc" href="#coc">Code of Conduct</a>
+                <a class="lead" id="coc" href="#coc">Code of Conduct</a>
                 <hr>
 
                 <p>
@@ -310,15 +309,22 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                  <em>
-                    <small>Paid for by the DEMOCRATIC NATIONAL COMMITTEE (202) 863-8000. This communication is not authorized by any candidate or candidate's committee.</small>
-                  </em>
+                <em>
+                  <small>Paid for by the DEMOCRATIC NATIONAL COMMITTEE (202) 863-8000. This communication is not authorized by any candidate or candidate's committee.</small>
+                </em>
               </div>
             </div>
-          </footer>
+          </div>
         </div>
-      </section>
+      </footer>
     </main>
+
+    <script>
+      // poor man's development flag
+      if (window.location.hostname === 'localhost') {
+        document.write('<script src="http://localhost:35729/livereload.js"><\/script>');
+      }
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/components/jquery.js"><\/script>');</script>
