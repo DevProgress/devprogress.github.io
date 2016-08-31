@@ -20,6 +20,24 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'SharpUnity';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/SharpUnity/SharpUnity-Book.ttf') format('truetype'),
+  url('../fonts/SharpUnity/SharpUnity-Book.woff') format('woff'),
+  url('../fonts/SharpUnity/SharpUnity-Book.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SharpUnity';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/SharpUnity/SharpUnity-Semibold.ttf') format('truetype'),
+  url('../fonts/SharpUnity/SharpUnity-Semibold.woff') format('woff'),
+  url('../fonts/SharpUnity/SharpUnity-Semibold.woff2') format('woff2');
+}
+
 .section-header {
   display: inline-block;
   font-weight: bold;
@@ -30,5 +48,17 @@
 }
 
 .callout {
-	margin: 0 0 30px;
+  margin: 0 0 30px;
+}
+
+.remove-rhythm {
+  margin: 0;
+}
+
+.text-light {
+  color: $white;
+}
+
+.text-muted {
+  color: $gray;
 }

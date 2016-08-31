@@ -2,6 +2,14 @@ $brand-danger: #e51d2e;
 $brand-primary: #0050a0;
 $white: #fff;
 $font-family-sans-serif: 'Tofino', 'Helvetica Neue', 'Helvetica', sans-serif;
+$gray-base:    #000 !default;
+$gray-darker:  lighten($gray-base, 5%);
+$gray-dark:    #404040;
+$gray:         #808080;
+$gray-light:   #b2b2b2;
+$gray-lighter: #e5e5e5;
+$gray-lightest: #fafafa;
+
 
 $left-panel-width-sm: 40%;
 $left-panel-width-md: 30%;
@@ -10,16 +18,18 @@ $right-panel-width-sm: 60%;
 $right-panel-width-md: 70%;
 
 // Vendor
-@import "../../bower_components/normalize-css/normalize.css";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import '../../bower_components/normalize-css/normalize.css';
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap';
 
 // Components
-@import "buttons";
-@import "typography";
+@import 'buttons';
+@import 'typography';
 
 // Sections
-@import "main-content";
-@import "footer";
+@import 'main-content';
+@import 'footer';
+
+@import 'projects';
 
 * {
   box-sizing: border-box;
@@ -28,7 +38,8 @@ $right-panel-width-md: 70%;
   text-rendering: optimizeLegibility;
 }
 
-body, html {
-	height: 100%;
-	width: 100%;
+body,
+html {
+  height: 100%;
+  width: 100%;
 }
