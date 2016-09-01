@@ -75,3 +75,14 @@ hr {
     color: $gray-dark;
   }
 }
+
+.project-tech-stack li {
+  font-size: $font-size-h6;
+  text-transform: uppercase;
+
+  &:not(:last-of-type):after {
+    content: '\00B7';
+    left: 6px;
+    position: relative;
+  }
+}
