@@ -1,0 +1,4 @@
+bower_components
+node_modules
+assets/vendor
+server.log
