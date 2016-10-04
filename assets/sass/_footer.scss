@@ -26,10 +26,8 @@
 
 @media(min-width: $screen-sm-min) {
   .footer {
-    bottom: 0;
-    left: $left-panel-width-sm;
     margin: 0;
-    position: fixed;
+    position: absolute;
     right: 0;
     width: auto;
   }
